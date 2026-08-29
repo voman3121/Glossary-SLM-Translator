@@ -56,12 +56,12 @@ don't render Tamil/Malayalam glyphs):
 ### 1. Basic run (extract + translate + CSV/PDF)
 
 ```bash
-python pipeline.py glossary.pdf tam_Taml ./output --font NotoSansTamil-Regular.ttf
+python pipeline.py path/to/glossary.pdf tam_Taml ./output --font NotoSansTamil-Regular.ttf
 ```
 
 For Malayalam:
 ```bash
-python pipeline.py glossary.pdf mal_Mlym ./output --font NotoSansMalayalam-Regular.ttf
+python pipeline.py path/to/glossary.pdf mal_Mlym ./output --font NotoSansMalayalam-Regular.ttf
 ```
 
 ### 2. (Optional) Improve accuracy with domain fine-tuning
